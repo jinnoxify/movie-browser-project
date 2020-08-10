@@ -1,3 +1,7 @@
+body {
+  background-color: #111;
+}
+
 .images {
   display: flex;
   overflow-x: scroll;
@@ -21,4 +25,10 @@
 
 .image-alone:hover {
   transform: scale(1.18);
+}
+h2 {
+  color: #fff;
+}
+.row-is-large {
+  max-height: 250px;
 }
